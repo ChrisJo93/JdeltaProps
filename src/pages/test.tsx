@@ -1,7 +1,7 @@
 import React from "react";
 
 const Test = () => {
-  return <>Pull Request Test</>;
+  return <>rainbows</>;
 };
 
 export default Test;
