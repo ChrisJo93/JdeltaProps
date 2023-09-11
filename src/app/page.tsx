@@ -1,5 +1,5 @@
-import Test from "@/pages/test";
-import Image from "next/image";
+import Test from "@/pages/test"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -111,5 +111,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  );
+  )
 }
