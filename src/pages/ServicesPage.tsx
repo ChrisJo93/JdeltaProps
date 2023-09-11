@@ -8,8 +8,20 @@ const ServicesPage = () => {
     const yourImage3 =
     "https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=600";
 
+     const style = {
+        backgroundColor: "grey",
+        height: "100px",
+        animationName: "example",
+    animationDuration: "4s",
+      };
+      const mediaQuery = "(min-width: 768px)";
+
+      if (window.matchMedia(mediaQuery).matches) {
+        style.height = "200px";
+      }
 
   return (
+    <div style={{ style }}>   
     <div className="container" >
       <div className="row mt-4 align-items-center">
         <div className="col-md-6">
@@ -83,6 +95,7 @@ const ServicesPage = () => {
     </div>
     </div>
     );
+      </div>
 }
 
 export { RenderImage };
