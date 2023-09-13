@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const ServicesPage = () => {
   const yourImage =
     "https://media.istockphoto.com/id/1205228815/photo/male-plumber-working-to-fix-leaking-sink-in-home-bathroom.jpg?b=1&s=612x612&w=0&k=20&c=apvWPotFrWiLWhQLoU1NrYyPCWrZ9f3z6N31dsyRv8k="
@@ -13,6 +15,7 @@ const ServicesPage = () => {
     animationName: "example",
     animationDuration: "4s",
   }
+
   const mediaQuery = "(min-width: 768px)"
 
   if (window.matchMedia(mediaQuery).matches) {
@@ -20,7 +23,7 @@ const ServicesPage = () => {
   }
 
   return (
-    <div style={{ style }}>
+    <div style={style}>
       <div className="container">
         <div className="row mt-4 align-items-center">
           <div className="col-md-6">
@@ -36,7 +39,7 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <img className="img-fluid" src={yourImage} alt="Section 1" />
+            <Image className="img-fluid" src={yourImage} alt="Section 1" />
           </div>
         </div>
 
@@ -54,7 +57,7 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6 order-md-1">
-            <img className="img-fluid" src={yourImage2} alt="Section 2" />
+            <Image className="img-fluid" src={yourImage2} alt="Section 2" />
           </div>
         </div>
 
@@ -72,7 +75,7 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <img className="img-fluid" src={yourImage3} alt="Section 3" />
+            <Image className="img-fluid" src={yourImage3} alt="Section 3" />
           </div>
         </div>
 
@@ -118,4 +121,4 @@ const ServicesPage = () => {
   )
 }
 
-export { RenderImage }
+export { ServicesPage }
