@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from "flowbite-react";
+import React from "react"
+import { Navbar } from "flowbite-react"
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
-  );
+  )
 }
 
-export default NavTabs;
+export default NavTabs
