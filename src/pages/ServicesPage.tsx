@@ -1,13 +1,13 @@
 import Image from "next/image"
 
 const ServicesPage = () => {
-  const yourImage =
-    "https://media.istockphoto.com/id/1205228815/photo/male-plumber-working-to-fix-leaking-sink-in-home-bathroom.jpg?b=1&s=612x612&w=0&k=20&c=apvWPotFrWiLWhQLoU1NrYyPCWrZ9f3z6N31dsyRv8k="
-  const yourImage2 =
-    "https://images.pexels.com/photos/1023404/pexels-photo-1023404.jpeg?auto=compress&cs=tinysrgb&w=600"
+  // const yourImage =
+  //   "https://media.istockphoto.com/id/1205228815/photo/male-plumber-working-to-fix-leaking-sink-in-home-bathroom.jpg?b=1&s=612x612&w=0&k=20&c=apvWPotFrWiLWhQLoU1NrYyPCWrZ9f3z6N31dsyRv8k="
+  // const yourImage2 =
+  //   "https://images.pexels.com/photos/1023404/pexels-photo-1023404.jpeg?auto=compress&cs=tinysrgb&w=600"
 
-  const yourImage3 =
-    "https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=600"
+  // const yourImage3 =
+  //   "https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=600"
 
   const style = {
     backgroundColor: "grey",
@@ -18,9 +18,9 @@ const ServicesPage = () => {
 
   const mediaQuery = "(min-width: 768px)"
 
-  if (window.matchMedia(mediaQuery).matches) {
-    style.height = "200px"
-  }
+  // if (window.matchMedia(mediaQuery).matches) {
+  //   style.height = "200px"
+  // }
 
   return (
     <div style={style}>
@@ -39,7 +39,13 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <Image className="img-fluid" src={yourImage} alt="Section 1" />
+            {/* <Image
+              className="img-fluid"
+              src={yourImage}
+              alt="Section 1"
+              width={20}
+              height={20}
+            /> */}
           </div>
         </div>
 
@@ -57,7 +63,13 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6 order-md-1">
-            <Image className="img-fluid" src={yourImage2} alt="Section 2" />
+            {/* <Image
+              className="img-fluid"
+              src={yourImage2}
+              alt="Section 2"
+              width={20}
+              height={20}
+            /> */}
           </div>
         </div>
 
@@ -75,7 +87,13 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <Image className="img-fluid" src={yourImage3} alt="Section 3" />
+            {/* <Image
+              className="img-fluid"
+              src={yourImage3}
+              alt="Section 3"
+              width={20}
+              height={20}
+            /> */}
           </div>
         </div>
 
@@ -121,4 +139,4 @@ const ServicesPage = () => {
   )
 }
 
-export { ServicesPage }
+export default ServicesPage
