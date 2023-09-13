@@ -1,12 +1,11 @@
+import Link from "next/link"
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
 
 function Form() {
   const [name, setName] = useState("")
   const [showModal, setShowModal] = useState(false)
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     setShowModal(true)
   }
 
@@ -119,7 +118,7 @@ function Form() {
             }}
           >
             <h2>Your request has been received!</h2>
-            <Link to="/services">
+            <Link href="/services">
               <button>Okay</button>
             </Link>
           </div>
