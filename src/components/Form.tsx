@@ -1,7 +1,7 @@
 import Link from "next/link"
 import React, { useState } from "react"
 
-function Form() {
+const Form = () => {
   const [name, setName] = useState("")
   const [showModal, setShowModal] = useState(false)
 
@@ -128,4 +128,4 @@ function Form() {
   )
 }
 
-export { Form }
+export default Form
