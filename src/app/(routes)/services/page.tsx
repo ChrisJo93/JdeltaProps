@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const ServicesPage = () => {
   // const yourImage =
   //   "https://media.istockphoto.com/id/1205228815/photo/male-plumber-working-to-fix-leaking-sink-in-home-bathroom.jpg?b=1&s=612x612&w=0&k=20&c=apvWPotFrWiLWhQLoU1NrYyPCWrZ9f3z6N31dsyRv8k="
@@ -15,8 +13,6 @@ const ServicesPage = () => {
     animationName: "example",
     animationDuration: "4s",
   }
-
-  const mediaQuery = "(min-width: 768px)"
 
   // if (window.matchMedia(mediaQuery).matches) {
   //   style.height = "200px"
