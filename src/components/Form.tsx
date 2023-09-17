@@ -9,6 +9,7 @@ const Form = () => {
     setShowModal(true)
   }
 
+  console.log(name)
   return (
     <div>
       <div
