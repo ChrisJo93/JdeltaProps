@@ -19,11 +19,6 @@ function NavBar() {
           <span className="font-bold">Properties</span>
         </button>
       </Link>
-      <Link href="#">
-        <button>
-          <span className="font-bold">NavLink4</span>
-        </button>
-      </Link>
     </div>
   )
 }

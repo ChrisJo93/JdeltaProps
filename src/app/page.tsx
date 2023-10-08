@@ -1,10 +1,11 @@
 import Link from "next/link"
 import React from "react"
 import NavBar from "@/components/NavBar"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-24">
+    <main className="flex min-h-screen flex-col items-center gap-4">
       <NavBar />
       <header>Home Page</header>
 
@@ -18,6 +19,7 @@ export default function Home() {
           <span className="font-bold">Listings</span>
         </button>
       </Link>
+      <Footer />
     </main>
   )
 }
