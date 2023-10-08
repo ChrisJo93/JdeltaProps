@@ -1,4 +1,4 @@
-import Image from "next/image"
+import React from "react"
 
 const ServicesPage = () => {
   // const yourImage =
@@ -15,8 +15,6 @@ const ServicesPage = () => {
     animationName: "example",
     animationDuration: "4s",
   }
-
-  const mediaQuery = "(min-width: 768px)"
 
   // if (window.matchMedia(mediaQuery).matches) {
   //   style.height = "200px"
