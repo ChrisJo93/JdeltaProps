@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-24">
+    <main className="flex min-h-screen flex-col items-center gap-4">
       <NavBar />
       <header>Home Page</header>
 
