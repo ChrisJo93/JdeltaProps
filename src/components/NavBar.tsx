@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function NavBar() {
   return (
-    <div className="flex justify-center gap-10">
+    <header className="flex justify-center gap-10">
       <Link href="/services">
         <button>
           <span className="font-bold">Services</span>
@@ -19,7 +19,7 @@ function NavBar() {
           <span className="font-bold">Properties</span>
         </button>
       </Link>
-    </div>
+    </header>
   )
 }
 
