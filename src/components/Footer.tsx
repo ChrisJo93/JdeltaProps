@@ -11,7 +11,7 @@ function Footer() {
         </button>
       </Link>
       <div className="flex self-end gap-4">
-        <span>Phone: 318-555-5555</span>
+        <span>Phone: 555-555-5555</span>
       </div>
     </footer>
   )
