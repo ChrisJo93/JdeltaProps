@@ -12,7 +12,7 @@ export interface Property {
 
 //We create a Listing component with a Property object as an argument. Every time we use Listing we'll pass it a property.
 const Listing = (property: Property) => {
-  return <div> </div>
+  return <div>{property?.address} </div>
 }
 
 export default Listing
