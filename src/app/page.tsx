@@ -1,13 +1,13 @@
 import Link from "next/link"
 import React from "react"
 import NavBar from "../components/NavBar"
+import Header from "@/components/Header"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4">
+    <main className="">
+      <Header />
       <NavBar />
-      <header>Home Page</header>
-
       <Link href="/services">
         <button className="btn btn-blue">
           <span className="font-bold">Services</span>
