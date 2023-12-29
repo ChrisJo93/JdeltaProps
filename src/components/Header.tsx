@@ -6,7 +6,7 @@ const Header = () => {
       <div className="ml-8 text-2xl self-center">JDelta Properties</div>
 
       <button className="mr-8 text-2xl self-center justify-self-end">
-        Listings
+        Listing
       </button>
     </div>
   )
