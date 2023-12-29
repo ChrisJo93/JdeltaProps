@@ -8,8 +8,6 @@ export default function Home() {
     <main className="">
       <Header />
       <NavBar />
-      <header>Home Page</header>
-
       <Link href="/services">
         <button className="btn btn-blue">
           <span className="font-bold">Services</span>
