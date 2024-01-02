@@ -4,11 +4,13 @@ const About = () => {
   return (
     <div
       id="about_us"
-      className="grid align-center justify-center bg-cover bg-center bg-no-repeat min-h-screen min-w-full bg-white text-slate-700 text-3xl"
+      className="grid min-h-screen bg-white text-slate-700 text-3xl"
     >
-      <div className="text-center	leading-normal max-w-auto ">
-        <p className="justify-self-center mt-32 text-4xl mb-3">About Us</p>
-        <p className="mx-52 text-xl text-balance">
+      <div className="grid text-center leading-normal">
+        <p className="mx-52 text-xl text-balance self-center">
+          <span className="text-4xl">About Us</span>
+          <br />
+          <br />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui sapien
           eget mi proin sed libero enim sed faucibus. Orci dapibus ultrices in
