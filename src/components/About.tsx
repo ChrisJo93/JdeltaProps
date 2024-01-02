@@ -2,10 +2,7 @@ import React from "react"
 
 const About = () => {
   return (
-    <div
-      id="about_us"
-      className="grid min-h-screen bg-white text-slate-700 text-3xl"
-    >
+    <div id="about_us" className="grid h-screen my-10  text-3xl">
       <div className="grid text-center leading-normal">
         <p className="mx-52 text-xl text-balance self-center">
           <span className="text-4xl">About Us</span>

@@ -1,7 +1,7 @@
 import React from "react"
 const Header = () => {
   return (
-    <div className="h-20 grid gap-4 grid-cols-2 bg-white text-slate-700">
+    <div className="h-20 grid gap-4 grid-cols-2 ">
       <div className="ml-8 text-2xl self-center">JDelta Properties</div>
 
       <button className="mr-8 text-2xl self-center justify-self-end">
