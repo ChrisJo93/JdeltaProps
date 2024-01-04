@@ -20,7 +20,7 @@ function Footer() {
       </Link>
       <div>
         <span className="text-xl">Phone Number:</span>
-        <p className="text-sm">555-555-5555</p>
+        <p className="text-md">555-555-5555</p>
       </div>
     </footer>
   )
