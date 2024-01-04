@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <Link href="mailto:JDELTA@gmail.com">
         <button>
-          <span className="text-2xl">JDELTA@gmail.com</span>
+          <span className="text-2xl hover:bg-blue-600 ">JDELTA@gmail.com</span>
         </button>
       </Link>
       <div>
