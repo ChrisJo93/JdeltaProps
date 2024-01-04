@@ -18,7 +18,7 @@ export default function Home() {
       </section>
       <section>
         <Footer />
-     </section>
+      </section>
     </main>
   )
 }
