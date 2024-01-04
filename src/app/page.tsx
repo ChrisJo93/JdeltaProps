@@ -16,9 +16,6 @@ export default function Home() {
       <section id="listings">
         <CurrentListing />
       </section>
-      <section>
-        <Footer />
-      </section>
     </main>
   )
 }
