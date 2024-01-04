@@ -3,12 +3,10 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <footer className="grid grid-cols-2 justify-center gap-4 p-5">
+    <footer className="grid grid-cols-2 place-items-center gap-4 p-5">
       {/* Testing self-end with this div */}
       <div>
-        <p className="text-3xl">
-          JDELTA Properties
-        </p>
+        <p className="text-3xl">JDELTA Properties</p>
       </div>
       <div>
         <p className="text-2xl">Address</p>
@@ -22,7 +20,7 @@ function Footer() {
         </button>
       </Link>
       <div>
-        <span>Phone Number:</span>
+        <span className="text-xl">Phone Number:</span>
         <p className="text-sm">318-555-5555</p>
       </div>
     </footer>
