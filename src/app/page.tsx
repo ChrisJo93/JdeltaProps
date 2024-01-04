@@ -2,6 +2,7 @@ import React from "react"
 import About from "@/components/About"
 import Banner from "@/components/Banner"
 import CurrentListing from "@/components/CurrentListing"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       <section id="listings">
         <CurrentListing />
       </section>
-      <section>services</section>
-      <section>contact info</section>
+      <section>
+        <Footer />
+     </section>
     </main>
   )
 }
