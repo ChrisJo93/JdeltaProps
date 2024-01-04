@@ -15,8 +15,6 @@ export default function Home() {
       <section id="listings">
         <CurrentListing />
       </section>
-      <section>services</section>
-      <section>contact info</section>
     </main>
   )
 }
